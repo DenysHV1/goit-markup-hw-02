@@ -1,10 +1,9 @@
 body {
   background-color: #fff;
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   line-height: 1.5;
   font-size: 16px;
-  letter-spacing: 0.02em;
 }
 
 ul {
@@ -24,37 +23,41 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-}
-
-.ws-logo span {
   color: #4d5ae5;
 }
 
-.header-nav-item a {
+.logo-span {
+  color: #2e2f42;
+}
+
+.nav-item__link {
   font-weight: 500;
   color: #2e2f42;
 }
-.header-nav-item a:hover {
+.nav-item__link:hover {
   color: #404bbf;
 }
 
-.header-nav-item a:active {
+.nav-item__link:active {
   color: #404bbf;
-  text-decoration: underline 4px solid #404bbf;
+  /* text-decoration: underline 4px solid #404bbf;
   text-underline-offset: 20px;
-  border-radius: 2px;
+  border-radius: 2px; */
 }
 
-.contact__item a {
+.ws-header-inner-contacts {
+  font-style: normal;
+}
+
+.contact-item__link {
   color: #434455;
 }
 
-.contact__item a:hover {
+.contact-item__link:hover {
   color: #404bbf;
 }
 
-.contact__item a:focus {
+.contact-item__link:focus {
   color: #404bbf;
 }
 
@@ -68,6 +71,7 @@ a {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
@@ -84,6 +88,8 @@ a {
   color: #fff;
   border: none;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
 }
 
 .order__button:hover {
@@ -94,16 +100,37 @@ a {
   background-color: #404bbf;
 }
 
+.order__button:focus {
+  background-color: #404bbf;
+}
+
 /* <!-- Second section "ws-offer-for-users" --> */
 
-.offer-list-text h3 {
+.offer-list__title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 /* <!-- Third section "ws-team" --> */
+.ws-team {
+  background-color: #f4f4fd;
+}
+
+.offer-list__title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team-list {
+  background-color: #ffffff;
+}
 
 .team-item__name {
   font-weight: 500;
@@ -111,6 +138,7 @@ a {
   line-height: 1.2;
   text-align: center;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 .team-item__profession {
@@ -119,11 +147,21 @@ a {
 
 /* <!-- the four section "Our Portfolio" --> */
 
+.our-portfolio__title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
 .our-portfolio-item__title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 /* <!--~~~~~~~~~~~~~~~~~~~~~Footer~~~~~~~~~~~~~~~~~~~~~~~~--> */
@@ -132,5 +170,9 @@ a {
 }
 
 .footer-left-info__text {
+  color: #f4f4fd;
+}
+
+.footer-logo__span {
   color: #f4f4fd;
 }
