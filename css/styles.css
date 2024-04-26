@@ -87,12 +87,12 @@ a {
 }
 
 .order__button:hover {
-background-color: #404bbf;
+  background-color: #404bbf;
 }
 
 .order__button:active {
-	background-color: #404bbf;
-	}
+  background-color: #404bbf;
+}
 
 /* <!-- Second section "ws-offer-for-users" --> */
 
