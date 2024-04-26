@@ -33,6 +33,7 @@ a {
 .nav-item__link {
   font-weight: 500;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .nav-item__link:hover {
   color: #404bbf;
@@ -40,9 +41,10 @@ a {
 
 .nav-item__link:active {
   color: #404bbf;
-  /* text-decoration: underline 4px solid #404bbf;
-  text-underline-offset: 20px;
-  border-radius: 2px; */
+}
+
+.nav-item__link:focus {
+  color: #404bbf;
 }
 
 .ws-header-inner-contacts {
@@ -51,6 +53,7 @@ a {
 
 .contact-item__link {
   color: #434455;
+  letter-spacing: 0.02em;
 }
 
 .contact-item__link:hover {
@@ -77,16 +80,12 @@ a {
 }
 
 .order__button {
-  border-radius: 4px;
-  padding: 16px 32px;
   width: 169px;
   height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-weight: 500;
   letter-spacing: 0.04em;
   color: #fff;
-  border: none;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
@@ -114,6 +113,10 @@ a {
   letter-spacing: 0.02em;
 }
 
+.offer-list__text {
+  letter-spacing: 0.02em;
+}
+
 /* <!-- Third section "ws-team" --> */
 .ws-team {
   background-color: #f4f4fd;
@@ -128,7 +131,7 @@ a {
   color: #2e2f42;
 }
 
-.team-list {
+.team-list-item {
   background-color: #ffffff;
 }
 
@@ -143,6 +146,7 @@ a {
 
 .team-item__profession {
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 /* <!-- the four section "Our Portfolio" --> */
@@ -164,6 +168,10 @@ a {
   letter-spacing: 0.02em;
 }
 
+.our-portfolio-item__text {
+  letter-spacing: 0.02em;
+}
+
 /* <!--~~~~~~~~~~~~~~~~~~~~~Footer~~~~~~~~~~~~~~~~~~~~~~~~--> */
 .web-studio-footer {
   background-color: #2e2f42;
@@ -171,6 +179,7 @@ a {
 
 .footer-left-info__text {
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
 
 .footer-logo__span {
